@@ -59,11 +59,14 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  border-radius: 4px;
+  background-color: var(--accent-color);
 }
 .model-btn:hover,
 .model-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  cursor: pointer;
 }
 .contact-list-link:hover,
 .contact-list-link:focus {
