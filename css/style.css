@@ -1,11 +1,12 @@
 :root {
+  --text-font: "Roboto", sans-serif;
+  --text-font-logo: "Raleway", sans-serif;
   --accent-color: #2196f3;
-  --while-color: #212121;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
+body {
+  font-family: var(--text-font);
+  color: #212121;
 }
 ul {
   list-style: none;
@@ -13,4 +14,162 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation */
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.curren-link {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.143px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.model-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.model-btn:hover,
+.model-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+.logotype {
+  font-family: var(--text-font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192px;
+  letter-spacing: 0.03em;
+}
+.logotype-span {
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* ABOUT */
+
+.about-text {
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* What are we doing */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* our team */
+
+.section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.title-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* footer */
+
+.logo-white {
+  color: #ffffff;
+}
+.adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.address-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714px;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+.address-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714px;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
 }
