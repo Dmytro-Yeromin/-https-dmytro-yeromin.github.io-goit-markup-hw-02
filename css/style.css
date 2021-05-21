@@ -58,6 +58,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
   color: #ffffff;
   border-radius: 4px;
   background-color: var(--accent-color);
@@ -75,6 +76,10 @@ a {
 
 /* HERO */
 
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -82,14 +87,14 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .logotype {
   display: block;
   font-family: var(--text-font-logo);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
 }
 .logotype-span {
@@ -143,12 +148,13 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
-  /* text-align: center; */
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /* footer */
+.footer {
+  background-color: #2f303a;
+}
 
 .logo-white {
   color: #ffffff;
@@ -158,22 +164,52 @@ a {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .address-list {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .address-list-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+.social-button {
+  padding: 6px 22px;
+}
+
+.social-model-btn:hover,
+.social-model-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 6px 22px;
+}
+.potrfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.potrfolio-title-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
