@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
 }
 * {
@@ -43,7 +43,7 @@ a {
   color: var(--black-color);
 }
 
-.curren-link {
+.current-link {
   font-family: var(--text-font);
   font-size: 14px;
   line-height: 1.143;
@@ -172,7 +172,7 @@ a {
 .logo-white {
   color: var(--wite-color);
 }
-.adress-link {
+.address-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -222,14 +222,14 @@ a {
   color: var(--wite-color);
 }
 
-.potrfolio-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
 }
-.potrfolio-title-list {
+.portfolio-title-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
